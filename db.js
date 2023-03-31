@@ -2,14 +2,15 @@ const items = require("./data/items");
 const tags = require("./data/tags");
 const brands = require("./data/brands");
 const itemTypes = require("./data/itemTypes");
+const blogs = require("./data/blogs");
 
 module.exports = {
   items,
   tags,
   brands,
-  itemTypes
-}
-
+  itemTypes,
+  blogs,
+};
 
 // const items = require("./data/items");
 
@@ -18,8 +19,6 @@ module.exports = {
 //   var tags = items.map((i) => i.tags);
 //   tags = [].concat.apply([], tags);
 //   tags = [...new Set(tags)];
-
- 
 
 //   var brands = items.map((i) => i.manufacturer);
 //   brands = [...new Set(brands)];
